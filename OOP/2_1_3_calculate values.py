@@ -25,6 +25,7 @@
 # c2.increment()
 # c2.display() # печатает "Текущее значение счетчика = 4"
 
+
 class Counter:
 
     def start_from(self, value=0):
@@ -43,16 +44,15 @@ class Counter:
         print(f"Обнулили счётчик, значение равно {self.value}")
 
 
-c1 = Counter()
-
-c1.start_from(5)
-c1.increment()
-c1.display()
-c1.increment()
-c1.display()
-c1.reset()
-c1.display()
-
+# c1 = Counter()
+# c1.start_from(5)
+# c1.increment()
+# c1.display()
+# c1.increment()
+# c1.display()
+# c1.reset()
+# c1.display()
+#
 # Счёт начинается с 5
 # Добавили 1, теперь значение - 6
 # Текущее значение счетчика = 6
