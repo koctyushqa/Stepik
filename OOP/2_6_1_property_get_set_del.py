@@ -22,14 +22,14 @@ class BankAccount:  # создание класса
         fdel=delete_balance)  # fdel=delete_balance устанавливает метод удаления баланса
 
 
-acc1 = BankAccount('Pasha', 100)  # создаём экземпляр класса, и передаём имя и баланс
-
-acc1.balance
-acc1.balance = 5
-acc1.balance
-del acc1.balance
-acc1.balance = 18
-acc1.balance
+# acc1 = BankAccount('Pasha', 100)  # создаём экземпляр класса, и передаём имя и баланс
+#
+# acc1.balance
+# acc1.balance = 5
+# acc1.balance
+# del acc1.balance
+# acc1.balance = 18
+# acc1.balance
 #
 # Баланс - 100
 # Баланс изменён, остаток  -  5
